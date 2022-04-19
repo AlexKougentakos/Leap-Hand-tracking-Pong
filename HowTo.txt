@@ -1,0 +1,11 @@
+1. Execute the setup available in the provided LeapDeveloperKit_3.2.1_win.zip 
+
+2. Copy the folder LeapSDK also available in LeapDeveloperKit_3.2.1_win.zip to the folder c/Libraries.
+
+3. Only if you use a folder different from c/Libraries/LeapSDK, adapt the VC++ directories via project properties:
+   -> include directories
+   -> Library directories
+
+4. Copy the leap.dll file from the lib/x86 folder to sysWOW64
+
+More info on: https://developer.leapmotion.com/documentation/cpp
